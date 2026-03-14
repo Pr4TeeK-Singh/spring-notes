@@ -1,6 +1,6 @@
 # 🍃 Spring Framework — Complete Study Notes
 
-> A structured, beginner-friendly guide to Spring covering Core, MVC, AOP, and Security — written in plain English with code examples.
+> A structured, beginner-friendly guide to Spring covering Core, MVC, AOP, Security, and Architecture — written in plain English with code examples.
 
 ---
 
@@ -12,6 +12,7 @@
 | 2 | [Spring MVC](chapters/chapter-2-spring-mvc.md) | MVC Architecture, DispatcherServlet, Controllers, Request Flow |
 | 3 | [Spring AOP](chapters/chapter-3-spring-aop.md) | Aspect Oriented Programming, Advice, Cross-Cutting Concerns |
 | 4 | [Spring Security](chapters/chapter-4-spring-security.md) | Authentication, Authorization, Password Protection, Security Config |
+| 5 | [Spring Architecture](chapter-5-spring-architecture.md) | Framework Layers, Core Container, Web Layer, Data Layer, Bean Lifecycle, Spring vs Spring Boot |
 
 ---
 
@@ -28,6 +29,9 @@ Covers **Aspect Oriented Programming** — the technique of separating cross-cut
 
 ### [Chapter 4 — Spring Security](chapters/chapter-4-spring-security.md)
 Covers securing web applications with Spring Security. Explains **Authentication** vs **Authorization**, role-based access control, password protection, login/logout security, and security configuration.
+
+### [Chapter 5 — Spring Architecture](chapter-5-spring-architecture.md)
+Covers the **overall architecture of the Spring Framework** — all 5 layers explained in simple words. Includes the Core Container (IoC/DI), Data Access layer (JDBC/ORM), Web layer (MVC request flow), AOP layer, and Test module. Also covers **Bean Lifecycle** step-by-step and a **Spring Framework vs Spring Boot** comparison.
 
 ---
 
@@ -58,6 +62,9 @@ Covers securing web applications with Spring Security. Explains **Authentication
 | DispatcherServlet | [Ch. 2](chapters/chapter-2-spring-mvc.md#dispatcherservlet) |
 | AOP Key Terms | [Ch. 3](chapters/chapter-3-spring-aop.md#important-terms-in-spring-aop) |
 | Authentication vs Authorization | [Ch. 4](chapters/chapter-4-spring-security.md#authentication-vs-authorization) |
+| Spring Architecture Diagram | [Ch. 5](chapter-5-spring-architecture.md#2-the-big-picture--spring-architecture-diagram) |
+| Spring vs Spring Boot | [Ch. 5](chapter-5-spring-architecture.md#9-spring-framework-vs-spring-boot) |
+| Bean Lifecycle (step-by-step) | [Ch. 5](chapter-5-spring-architecture.md#8-spring-bean-lifecycle-how-spring-manages-objects) |
 
 ---
 
